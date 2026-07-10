@@ -301,38 +301,38 @@ info = {
     4.11    Set Methods
 '''
 
-s1 = {1, 2, 3, 4, 5, 2}
+# s1 = {1, 2, 3, 4, 5, 2}
 
 '''s1.add(val)'''
-print("add : = ",s1)
-s1.add(10)   #   insert 10 at last
-print(s1)
+# print("add : = ",s1)
+# s1.add(10)   #   insert 10 at last
+# print(s1)
 
 '''s1.remove(val)        adds a val'''
-print("Remove : = ",s1)
-s1.remove(10)   #   remove 10 at last
-print(s1)
+# print("Remove : = ",s1)
+# s1.remove(10)   #   remove 10 at last
+# print(s1)
 
 '''s1.clear()        removes a val'''
-print("Clear : = ",s1)
-s1.clear()   #   remove 10 at last
-print(s1)       #   prints empty set()
+# print("Clear : = ",s1)
+# s1.clear()   #   remove 10 at last
+# print(s1)       #   prints empty set()
 
 '''s1.pop()      removes a random val'''
-s1 = {1, 2, 3, 4, 5, 2}
-print("Pop : = ",s1)
-s1.pop()   #   remove 1
-print(s1)       
+# s1 = {1, 2, 3, 4, 5, 2}
+# print("Pop : = ",s1)
+# s1.pop()   #   remove 1
+# print(s1)       
 
 '''s1.union(set2)        returns new union       all'''
-s1 = {1, 2, 3, 4, 5, 2}
-s2 = {1, 3, 5, 7, 9, 8, 7, 6}
-print("Union : = ",s1,s2)
-print(s1.union(s2))       
+# s1 = {1, 2, 3, 4, 5, 2}
+# s2 = {1, 3, 5, 7, 9, 8, 7, 6}
+# print("Union : = ",s1,s2)
+# print(s1.union(s2))       
 
 '''s1.intersection(set2)     returns new intersection        same'''
-print("intersection : = ",s1,s2)
-print(s1.intersection(s2))      
+# print("intersection : = ",s1,s2)
+# print(s1.intersection(s2))      
 
 
 
